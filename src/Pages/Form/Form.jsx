@@ -1,4 +1,4 @@
-import "./Form.css";
+import "./form.css";
 import React, { useState } from "react";
 
 const Form = () => {
