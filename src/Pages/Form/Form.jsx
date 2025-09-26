@@ -29,7 +29,7 @@ const Form = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await fetch("https://form-backend-sngm.onrender.com/", {
+      const res = await fetch("https://form-backend-sngm.onrender.com/submit/Form", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),
